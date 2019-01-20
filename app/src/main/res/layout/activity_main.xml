@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="80dp"
+    android:layout_marginBottom="50dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/insert_text"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:hint="@string/insert_hint"/>
+        <Button
+            android:id="@+id/insert_button"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/insert_button"/>
+        <Button
+            android:id="@+id/clear_insert_button"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_insert_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/update_before_text"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:hint="@string/update_before_text" />
+
+        <EditText
+            android:id="@+id/update_after_text"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:hint="@string/update_after_text" />
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/update_button" />
+
+        <Button
+            android:id="@+id/clear_update_button"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_update_button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/delete_text"
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="wrap_content"
+            android:hint="@string/delete_hint" />
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_button"/>
+        <Button
+            android:id="@+id/clear_delete_button"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_delete_button" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/query_button"/>
+    <Button
+        android:id="@+id/clear_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_query_button"/>
+
+    <include layout="@layout/activity_content"/>
+</LinearLayout>

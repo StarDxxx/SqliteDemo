@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">sqliteTest</string>
+    <string name="insert_hint">请输入要插入的文字</string>
+    <string name="insert_button">插入</string>
+    <string name="clear_insert_button">清空</string>
+
+    <string name="update_before_text">请输入更新前的内容</string>
+    <string name="update_after_text">请输入更新后的内容</string>
+    <string name="update_button">更新</string>
+    <string name="clear_update_button">清空</string>
+
+    <string name="delete_hint">请输入要删除的文字</string>
+    <string name="delete_button">删除</string>
+    <string name="clear_delete_button">清空</string>
+
+    <string name="query_button">查询所有</string>
+
+    <string name="clear_query_button">清空查询</string>
+
+    <string name="query_is_null">查询内容为空</string>
+</resources>
